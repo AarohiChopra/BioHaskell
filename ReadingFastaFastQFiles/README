@@ -1,0 +1,40 @@
+Python Files : 
+
+usage: python script.py filename {fasta,fastq}
+
+Reading FASTA/FASTQ files
+
+positional arguments:
+  filename      Enter file name
+  {fasta,fastq} Emter File format
+
+
+Example : python script.py example.fasta fasta
+
+Java Files:
+
+Compile: javac script.java
+
+Usage: java script filename {fasta,fastq}
+
+Reading FASTA/FASTQ files
+
+Positional Arguments:
+  filename Enter    file name
+  {fasta,fastq}     Enter File format
+
+Example: java script example.fasta fasta
+
+Haskell Files:
+
+Fast Reader
+ 
+Compile: ghc fastaReader.hs
+
+Useage: ./fastaReader example.fasta
+
+Fast Reader
+
+Compile: ghc fastqReader.hs
+
+Useage: ./fastqReader example.fastq
